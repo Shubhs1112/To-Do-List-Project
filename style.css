@@ -103,12 +103,17 @@ ul li span:hover{
     color: #fff;
 }
 
-
-
-@media screen and (max-width: 800px) and (min-width: 300px){
+@media screen and (max-width: 700px) and (min-width: 300px){
+    .container{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        padding: 10px;
+    }
     .todo-app{
         width: 95%;
-        position : absolute;
+        position : relative;
     }
     .todo-app img{
         width: 20px;
@@ -120,6 +125,7 @@ ul li span:hover{
         margin-bottom: 25px;
     }
     input{
+        position: relative;
         width: 70%;
         padding: 10px;
     }
@@ -127,8 +133,5 @@ ul li span:hover{
         position: relative;
         padding: 16px 25px;
         font-size: 15px;
-    }
-    .footer{
-        font-size: 12px;
     }
 }
