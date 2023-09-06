@@ -102,16 +102,33 @@ ul li span:hover{
     margin-top: 25px;
     color: #fff;
 }
+
+
+
 @media screen and (max-width: 800px) and (min-width: 300px){
     .todo-app{
         width: 95%;
+        position : absolute;
+    }
+    .todo-app img{
+        width: 20px;
+        margin-left: 10px;
     }
     .row{
+        position: relative;
         border-radius: 30px;
         margin-bottom: 25px;
     }
+    input{
+        width: 70%;
+        padding: 10px;
+    }
     button{
-        padding: 16px 20px;
+        position: relative;
+        padding: 16px 25px;
         font-size: 15px;
+    }
+    .footer{
+        font-size: 12px;
     }
 }
